@@ -1,6 +1,6 @@
-package ga.ventryboot.utils;
+package xyz.zytanic.utils;
 
-import ga.ventryboot.Main;
+import xyz.zytanic.Main;
 
 import java.util.ArrayList;
 import java.util.Random;
