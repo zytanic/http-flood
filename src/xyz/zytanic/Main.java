@@ -16,9 +16,6 @@ public class Main {
     public static int v = 0;
     public static int e = 0;
     public static int u = 0;
-    public static String header = "";
-    public static String ua = "";
-    public static String uam = "";
     public static void main(String[] args) throws IOException {
 
         UserAgents.loadusergants();
