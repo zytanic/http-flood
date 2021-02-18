@@ -24,6 +24,7 @@ public class Main {
         UserAgents.loadusergants();
         if (args.length != 4) {
             System.out.println("url time threads proxylist");
+            System.out.println("Download: https://github.com/zytanic/http-flood");
             System.exit(0);
         }
         String urll = args[0];
@@ -31,7 +32,7 @@ public class Main {
         new Thread(() -> {
             try {
                 TimeUnit.SECONDS.sleep(time);
-                System.exit(-1);
+                System.exit(0);
             } catch (InterruptedException interruptedException) {
                 interruptedException.printStackTrace();
             }
